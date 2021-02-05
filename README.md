@@ -5,7 +5,7 @@
 **Course:** Add your cursus <br>
 
 ## Purpose
-> The purpose of thi repository contains the files and tutorial on the reproducible research.
+> This repository contains the files and tutorial on the reproducible research.
 This is part of the 'Introduction to scientific research module' at ENSGSI.
 
 The course will introduce writing reproducible reports using R Markdown and version control. 

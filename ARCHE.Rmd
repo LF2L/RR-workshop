@@ -24,6 +24,7 @@ Régardez la video : [https://rstudio.cloud/learn/primers/1.2](https://rstudio.c
 
 ```{r vector, echo=TRUE}
 # Mets ici un example
+
 ```
 
 
@@ -60,9 +61,9 @@ anglais <- c(14, 9, 13, 15, 17, 11)
 sport <- c(18, 11, 14, 10, 8, 12)
 ```
 
-Calculer la moyenne des élèves de la classe en anglais.
+- Calculer la moyenne des élèves de la classe en anglais.
 
-Calculer la moyenne générale de chaque élève.
+- Calculer la moyenne générale de chaque élève.
  
 
 
@@ -87,27 +88,28 @@ Calculer la moyenne générale de chaque élève.
 
 
 ```{r}
-# Une exemple de boîte à moustache donnes `mpg`
+# Une exemple de boîte à moustache en utilisant les donnes `mpg`
 ```
 
 
-1. Quels sont les composant éléménts qu'un graphics a besoin en `ggplot`?
+1. Quels sont les composants qu'un grapique a besoin en `ggplot`?
 
 ```{r}
 # Votre réponse
 ```
 
 
-1. Faites un nuage de points de `cty` vs `hwy` de jeu de donnes `mpg`?
+1. Faites un nuage de points entre les données `cty` vs `hwy`  du jeu de données `mpg`?
 
 ```{r}
+# modifiez le code ci-dessous pour réaliser le nuage de points
 # ggplot(data = <DATA>) + 
 #   aes(x = <X>, y = <Y>)
 #  <GEOM_FUNCTION>()
 ```
 
 
-1. Dans le jeu de donnés `mpg`, graphiquez les nuage de points `cty` vs `hwy`, en en prenant le facteur `drv` comme un variable de differentiation par la couleur.
+1. Dans le jeu de donnés `mpg`, graphiquez un nuage de points `cty` vs `hwy`, en prenant le facteur `drv` comme un variable de differentiation par la couleur.
 
 ```{r}
 #ggplot(data = mpg) + 
@@ -124,7 +126,7 @@ Calculer la moyenne générale de chaque élève.
 > # Votre réponse
 
 
-1.  Expliquez les fonctions suivantes:
+1.  Expliquez a quoi servernt les fonctions suivantes:
  
 * `select()` and `filter()`: ____
 * `arrange()`: ___
@@ -132,18 +134,12 @@ Calculer la moyenne générale de chaque élève.
 * `mutate()`, `group_by()`, and `summarize()`: ____
 
 
-```{r}
-# Votre réponse
-```
- 
-
-1. Quels sont les `helpers` de la fonctionne `select()`?
+1. Quels sont les `helpers` de la fonction `select()`?
 
 > Votre réponse
 
 
-
-1 Pouvez-vous écrire le code pour filtrer le prénom 'Zack', et savoir combien de fois dans il a été donné le jeu de donnes `babynames`?
+1 Pouvez-vous écrire le code pour filtrer le prénom 'Zack', et savoir combien de fois il a été donné dans le jeu de donnes `babynames`?
 
 > Votre réponse
 
@@ -182,7 +178,7 @@ Si je veux le faire, comment il faut le faire?
 # Un exemple
 ```
 
-1. Quels sont les prenoms le plus populaires (masculin et feminine) l'année 2000 selon les donnés `babynames`?
+1. Quels sont les prenoms le plus populaires (masculin et feminin) dans l'année 2000 selon le jeu de  donnés `babynames`?
 
 ```{r}
 # Ici votre code
@@ -203,7 +199,7 @@ Si je veux le faire, comment il faut le faire?
 > 2.
 
 
-1. Quel est l'objectif de ce partie du code?. Expliquez
+1. Quel est l'objectif de cette partie du code?. Expliquez
 
 ```r
 babynames %>%
@@ -220,10 +216,6 @@ babynames %>%
 
 # Challenge Gapminder
 
-- Inspiré par [Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo)
-
-Regardez la documentation de [`gapminder` data package](https://github.com/jennybc/gapminder)
-
 ```{r data}
 # Code pour Lire la base de donnes 'Gapminder'
 gapminder <- read_csv2("data/gapminder.csv")
@@ -234,14 +226,15 @@ gapminder
 
 ```
 
-Choissisez au moins **Deux** taches ci-dessous en presentant un tableau ou bien une graphique 
+Choissisez au moins **Deux** excercises ci-dessous en presentant un tableau ou bien un graphique 
 
   * `dplyr` devrait être votre principal outil de manipulation des données
   * `ggplot2` doit être votre principal outil de visualisation
 
 ## Tasks menu {-}
 
-* L'espérance de vie moyenne sur l'ensemble des années pour la France ?
+* Grafiquez l'espérance de vie moyenne sur l'ensemble des années pour la France ?
+
 
 * Obtenir le maximum et le minimum du PIB par habitant pour tous les continents. (Fait un tableu)
 
